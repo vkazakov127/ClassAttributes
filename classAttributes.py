@@ -3,7 +3,7 @@ class Building:
     def __init__(self):
         Building.totals += 1
 
-house = []
+houses = []
 for i in range(40):
-    house.append(Building())
-    print(f'house[{i}]. Totals = {house[i].totals}')
+    houses.append(Building())
+    print(f'houses[{i}]. Totals = {Building.totals}')
