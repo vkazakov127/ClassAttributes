@@ -6,4 +6,5 @@ class Building:
 houses = []
 for i in range(40):
     houses.append(Building())
+    print(houses[i]) # Building object
     print(f'houses[{i}]. Totals = {Building.totals}')
